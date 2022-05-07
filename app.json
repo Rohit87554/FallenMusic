@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/AnonymousR1025/FallenMusic",
+  "repository": "https://github.com/Rohit87554/FallenMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,25 +16,25 @@
     },
     "BOT_NAME": {
       "description": "A name for your MusicPlayer Bot",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "BOT_USERNAME": {
       "description": "Username of your bot without @",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
-      "required": false
+      "required": true
     },
     "API_HASH": {
       "description": "Get this value from from my.telegram.org/apps",
-      "required": false
+      "required": true
     },
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
-      "required": false,
+      "required": true,
       "value": "anonymous_was_bot"
     },
     "SUPPORT_GROUP": {
